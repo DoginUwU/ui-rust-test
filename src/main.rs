@@ -47,8 +47,6 @@ impl Application for App {
                 row![
                     button(text("primary"))
                         .style(style::Button::Primary),
-                    button(text("secondary"))
-                        .style(style::Button::Primary)
                 ]
                     .spacing(10),
             )
